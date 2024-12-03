@@ -1,2 +1,2 @@
 # SellSmart
-Predictive Analytics for Sales
+Predicting retail sales using machine learning and MLflow for tracking
