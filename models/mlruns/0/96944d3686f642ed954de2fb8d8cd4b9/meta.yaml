@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/520919578308356224/96944d3686f642ed954de2fb8d8cd4b9/artifacts
+end_time: 1733511965472
+entry_point_name: ''
+experiment_id: '520919578308356224'
+lifecycle_stage: active
+run_id: 96944d3686f642ed954de2fb8d8cd4b9
+run_name: judicious-shrike-108
+run_uuid: 96944d3686f642ed954de2fb8d8cd4b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733511956362
+status: 3
+tags: []
+user_id: root
