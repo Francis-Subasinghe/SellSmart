@@ -1,0 +1,34 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.18.0
+model_size_bytes: 15001138
+model_uuid: a7d43a45e13d45c79a0d15971d35c6fa
+run_id: 329f09c3c0324af79f00cecbd57f4fc2
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Row ID", "required": true}, {"type": "long",
+    "name": "Postal Code", "required": true}, {"type": "long", "name": "Quantity",
+    "required": true}, {"type": "double", "name": "Discount", "required": true}, {"type":
+    "double", "name": "Profit", "required": true}, {"type": "long", "name": "Year",
+    "required": true}, {"type": "long", "name": "Month", "required": true}, {"type":
+    "long", "name": "Day", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2024-12-07 17:59:25.868194'

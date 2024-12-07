@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/338499441498762953/329f09c3c0324af79f00cecbd57f4fc2/artifacts
+end_time: 1733594375753
+entry_point_name: ''
+experiment_id: '338499441498762953'
+lifecycle_stage: active
+run_id: 329f09c3c0324af79f00cecbd57f4fc2
+run_name: angry-foal-73
+run_uuid: 329f09c3c0324af79f00cecbd57f4fc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733594363849
+status: 3
+tags: []
+user_id: root

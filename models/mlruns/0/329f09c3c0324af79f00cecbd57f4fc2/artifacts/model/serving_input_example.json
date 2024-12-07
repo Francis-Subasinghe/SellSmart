@@ -1,0 +1,26 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Row ID",
+      "Postal Code",
+      "Quantity",
+      "Discount",
+      "Profit",
+      "Year",
+      "Month",
+      "Day"
+    ],
+    "data": [
+      [
+        1,
+        42420,
+        2,
+        0.0,
+        41.91,
+        2016,
+        11,
+        8
+      ]
+    ]
+  }
+}
