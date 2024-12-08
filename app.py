@@ -3,6 +3,10 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import mlflow.pyfunc
 
+import os
+os.environ["MLFLOW_REQUIREMENTS_IGNORE"] = "true"
+
+
 # Load the MLflow model
 model = mlflow.pyfunc.load_model("mlruns/0/0/329f09c3c0324af79f00cecbd57f4fc2/artifacts/model")  # Replace <run_id> with your actual run ID
 
