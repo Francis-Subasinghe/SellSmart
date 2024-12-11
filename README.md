@@ -1,4 +1,4 @@
-SellSmart
+#SellSmart
 Predicting Retail Sales with Machine Learning
 
 SellSmart is a machine learning-powered API for retail sales prediction. This project demonstrates an end-to-end workflow including data preprocessing, model training, deployment using Flask, and tracking with MLflow.
@@ -97,6 +97,13 @@ SellSmart/
 ├── Dockerfile              # Docker configuration
 ├── README.md               # Project documentation
 └── mlruns/                 # MLflow experiment tracking folder
+
+### Known Issues
+- **Python Version Mismatch:**  
+  The MLflow model was saved using Python 3.10.12, but the project currently runs on Python 3.12.3. This might lead to compatibility issues in specific environments. For optimal compatibility, it is recommended to use Python 3.10 in your environment.  
+  Despite this, the API and project demonstrate key technologies such as Flask API development, MLflow integration, and AWS deployment.
+
+
 Contributing
 Contributions are welcome! Feel free to:
 
